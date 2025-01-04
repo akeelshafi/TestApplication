@@ -162,18 +162,20 @@
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="8dp"
             android:layout_weight="2"
-            android:padding="5dp"
             android:text="Add section"
             android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:background="@drawable/add_section_btn"
+            android:textColor="#3F51B5"/>
 
         <ImageView
             android:id="@+id/imageView7"
@@ -187,7 +189,7 @@
             app:srcCompat="@drawable/baseline_more_horiz_24" />
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button13"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
@@ -198,7 +200,9 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:background="@drawable/add_section_btn"
+        android:textColor="#3F51B5"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
